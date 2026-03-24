@@ -1,0 +1,76 @@
+/* *{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+.navbar{
+    font-size: large;
+    height:10vmin;
+    display:flex;
+    justify-content: space-around;
+    align-items:center;
+    box-shadow:0px .1px;
+}
+.nav-links{
+    display:flex;
+    justify-content: space-around;
+    gap:5vw;
+    list-style: none;
+    
+}
+.logo{
+    color: blueviolet;
+    font-size:24px;
+    font-weight:800;
+}
+.nav-links li a{
+    text-decoration:none;
+    color:black;
+} */
+
+.page-header{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    line-height: 4rem;
+}
+header{
+    padding:20px 0px;
+}
+#greeting-message{
+    font-size:48px;
+}
+#current-date{
+    font-size:22px;
+    color: rgba(0, 0, 0, 0.644);
+}
+.grid-3{
+    height:40vh;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+.card{
+    height:30vh;
+    width:80vw;
+    background-color: white;
+    border-radius:10px;
+    padding:20px;
+    margin:20px;
+    outline: 1px solid rgba(0, 0, 0, 0.201);
+    border-radius: 10px;
+    box-shadow: 0px 4px 0px 0px rgba(128, 128, 128, 0.229);
+}
+.card h3{
+    font-size:1.2rem;
+    margin:20px;
+    font-weight:600;
+}
+.card p{
+    font-size:3rem;
+    margin:20px;
+    color:blueviolet;
+    font-weight:600;
+}

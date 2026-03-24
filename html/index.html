@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/index.css" />
+    <link rel="stylesheet" href="../css/global.css" />
+  </head>
+  <body>
+  <nav class="navbar">
+        <div class="logo">Daily Manager</div>
+        <ul class="nav-links">
+            <li><a href="/client/html/index.html">Dashboard</a></li>
+            <li><a href="/client/html/habit.html">Habits</a></li>
+            <li><a href="/client/html/planner.html">Planner</a></li>
+            <li><a href="/client/html/notes.html">Notes</a></li>
+            <li><a href="/client/html/progress.html">Progress</a></li>
+            <li><a href="/client/html/profile.html">Profile</a></li>
+        </ul>
+    </nav>
+
+
+    <main class="container">
+        <header class="page-header fade-in">
+            <h1 id="greeting-message">Good Morning!</h1>
+            <p id="current-date">Today is ...</p>
+        </header>
+        <section class="grid-3 fade-in">
+            <div class="card">
+                <h3>Total Habits</h3>
+                <p id="total-habits" style="font-size: 2.5rem; color: var(--primary); font-weight: 700; margin-top: 1rem;">0</p>
+            </div>
+            <div class="card">
+                <h3>Completed Habits</h3>
+                <p id="completed-habits" style="font-size: 2.5rem; color: var(--success); font-weight: 700; margin-top: 1rem;">0</p>
+            </div>
+            <div class="card">
+                <h3>Total Tasks Today</h3>
+                <p id="total-tasks" style="font-size: 2.5rem; color: var(--secondary); font-weight: 700; margin-top: 1rem;">0</p>
+            </div>
+        </section>
+    </main>
+    <script src="/client/js/global.js"></script>
+    <script src="/client/js/index.js"></script>
+  </body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/client/css/profile.css">
+    <link rel="stylesheet" href="/client/css/global.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            Daily Manager
+        </div>
+        <ul class="nav-links">
+            <li><a href="/client/html/index.html">Dashboard</a></li>
+            <li><a href="/client/html/habit.html">Habits</a></li>
+            <li><a href="/client/html/planner.html">Planner</a></li>
+            <li><a href="/client/html/notes.html">Notes</a></li>
+            <li><a href="/client/html/progress.html">Progress</a></li>
+            <li><a href="/client/html/profile.html">Profile</a></li>
+        </ul>
+    </nav>
+    <main class="container">
+        <header class="page-header fade-in">
+            <h1 id="greeting-message">Your Profile</h1>
+            <p id="current-date">Manage your details and main goals.</p>
+        </header>
+         <div class="user-details">
+            <h3>User</h3>
+            <p><span class="bold">Main Goal</span>:Stay productive!</p>
+            <p><span class="bold">Bio</span>:No bio added yet.</p>
+        </div>
+         <div class="form-details">
+             <h2><span class="bold">Edit info</span></h2>
+             <label for="name">Name</label>
+             <input type="text" placeholder="user">
+             <label for="goal">Main Goal</label>
+             <input type="text" placeholder="Stay productive">
+             <label for="Bio">Short Bio</label>
+             <input type="text-area" placeholder="Tell us Something about yourself" class="textarea">
+             <button>Save Profile</button>
+        </div>
+    </main>
+    <script src="/client/js/profile.js"></script>
+    <script src="/client/js/global.js"></script>
+</body>
+</html>
