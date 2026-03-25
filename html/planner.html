@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="../css/planner.css">
+    <title>Planner</title>
     <link rel="stylesheet" href="../css/global.css">
+    <link rel="stylesheet" href="../css/planner.css">
 </head>
 <body>
     <nav class="navbar">
@@ -26,15 +26,20 @@
             <h1 id="greeting-message">Daily Planner</h1>
             <p id="current-date">Organize your day with a simple schedule planner.</p>
         </header>
-        <div class="input-container">
-            <form action="">
-                <input type="text" placeholder="What do you need to do?">
-                <input type="text" placeholder="12:30 PM">
-                <button>Add Task</button>
-            </form>
+        <div class="card">
+            <div class="input-container">
+                <form action="">
+                    <input type="text" id="planner-input" placeholder="What do you need to do?">
+                    <input type="text" id="planner-time" placeholder="12:30 PM">
+                    <button id="add-planner-btn">Add Task</button>
+                </form>
+                <ul class="item-list" id="planner-list">
+                    <!-- div list -->
+                </ul>
+            </div>
         </div>
     </main>
-    <script src="../client/js/planner.js"></script>
-    <script src="../client/js/planner.js"></script>
+    <script src="../js/global.js"></script>
+    <script src="../js/planner.js"></script>
 </body>
 </html>
